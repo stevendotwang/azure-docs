@@ -25,7 +25,10 @@ This article describes how to resolve the issue of an Azure subscription not hav
 1. When deploying a virtual machine, you receive one of the following error messages:
 ```
 Code: SkuNotAvailable
-Message: The requested size for resource '<resource>' is currently not available in location '<location>' zones '<zone>' for subscription '<subscriptionID>'. Please try another size or deploy to a different location or zones. See https://aka.ms/azureskunotavailable  for details.
+Message: The requested size for resource '<resource>' is currently not available 
+in location '<location>' zones '<zone>' for subscription '<subscriptionID>'. 
+Please try another size or deploy to a different location or zones. See 
+https://aka.ms/azureskunotavailable  for details.
 ```
 
 ```
