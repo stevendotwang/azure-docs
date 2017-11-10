@@ -42,7 +42,7 @@ Code: NotAvailableForSubscription
 Message: This size is currently unavailable in this location for this subscription
 ```
 
-### When purchasing Reservation Booking, you receive one of the following error messages
+### When purchasing Reserved Instances, you receive one of the following error messages:
 
 ```
 Message: Your subscription doesn’t support virtual machine reservation in 
@@ -54,12 +54,7 @@ locations>
 Message: This size is currently unavailable in this location for this subscription
 ```
 
-### When creating a support request to increase compute core quota, you receive this error message
-
-```
-Message: Some SKU series are unavailable for the selected subscription for this 
-region
-```
+### When creating a quota request, The SKU family or region you would like to request for does not show up.
 
 ## Solution
 We first recommend that you consider an alternative region or SKU that may also fit your need. If you’re unable to find a suitable region or SKU, create a "Subscription Management" support request.
