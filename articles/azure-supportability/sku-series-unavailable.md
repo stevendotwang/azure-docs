@@ -32,7 +32,9 @@ https://aka.ms/azureskunotavailable  for details.
 ```
 
 ```
-Message: Your subscription doesn’t support virtual machine creation in <location>. Choose a different location. Supported locations are <list of locations>
+Message: Your subscription doesn’t support virtual machine creation in 
+<location>. Choose a different location. Supported locations are <list of 
+locations>
 ```
 
 ```
@@ -43,7 +45,9 @@ Message: This size is currently unavailable in this location for this subscripti
 2. When purchasing Reservation Booking, you receive one of the following error messages
 
 ```
-Message: Your subscription doesn’t support virtual machine reservation in <location>. Choose a different location. Supported locations are: <list of locations>  
+Message: Your subscription doesn’t support virtual machine reservation in 
+<location>. Choose a different location. Supported locations are: <list of 
+locations>  
 ```
 
 ```
@@ -53,7 +57,8 @@ Message: This size is currently unavailable in this location for this subscripti
 3. When creating a support request to increase compute core quota, you receive this error message
 
 ```
-Message: Some SKU series are unavailable for the selected subscription for this region
+Message: Some SKU series are unavailable for the selected subscription for this 
+region
 ```
 
 ## Solution
