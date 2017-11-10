@@ -22,7 +22,7 @@ This article describes how to resolve the issue of an Azure subscription not hav
 
 ## Symptoms
 
-1. When deploying a virtual machine, you receive one of the following error messages:
+### When deploying a virtual machine, you receive one of the following error messages:
 ```
 Code: SkuNotAvailable
 Message: The requested size for resource '<resource>' is currently not available 
@@ -42,7 +42,7 @@ Code: NotAvailableForSubscription
 Message: This size is currently unavailable in this location for this subscription
 ```
 
-2. When purchasing Reservation Booking, you receive one of the following error messages
+### When purchasing Reservation Booking, you receive one of the following error messages
 
 ```
 Message: Your subscription doesn’t support virtual machine reservation in 
@@ -54,7 +54,7 @@ locations>
 Message: This size is currently unavailable in this location for this subscription
 ```
 
-3. When creating a support request to increase compute core quota, you receive this error message
+### When creating a support request to increase compute core quota, you receive this error message
 
 ```
 Message: Some SKU series are unavailable for the selected subscription for this 
