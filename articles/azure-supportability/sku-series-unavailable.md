@@ -40,7 +40,7 @@ Code: NotAvailableForSubscription
 Message: This size is currently unavailable in this location for this subscription
 ```
 
-### When purchasing Reserved Instances, you receive one of the following error messages:
+### When purchasing Reserved Virtual Machine Instances, you receive one of the following error messages:
 
 ```
 Message: Your subscription doesn’t support virtual machine reservation in <location>. Choose a 
@@ -51,22 +51,21 @@ different location. Supported locations are: <list of locations>
 Message: This size is currently unavailable in this location for this subscription
 ```
 
-### When creating a quota request, The SKU family or region you would like to request for does not show up.
+### When creating a support request to increase compute core quota, a region or a SKU family is not available for selection.
 
 ## Solution
-We first recommend that you consider an alternative region or SKU that may also fit your need. If you’re unable to find a suitable region or SKU, create a "Subscription Management" support request.
+We first recommend that you consider an alternative region or SKU that meets your business needs. If you’re unable to find a suitable region or SKU, create a "Subscription Management" [support request](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest) following the steps below:
 
-[New Support Request](https://ms.portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest)
 
-- On the Basics page, select Issue type as "Subscription Management", select the subscription for which you’re having issues with and click "Next".
+- On the Basics page, select Issue type as "Subscription Management", select the subscription and click "Next".
 
 ![Basics blade](./media/SKU-series-unavailable/BasicsSubMgmt.png)
 
 
--	On the Problem page, select the Problem type as “Other General Questions” and enter the region and SKU you are looking for.
-- To help expedite the support process:
-  - Please indicate if you’re looking to deploy VM or purchase reserved instances for the resource you’re requesting
-  - In the case of RI purchase, please indicate if you would like to purchase reserved instances to cover existing on-demand resources
+-	On the Problem page, select the Problem type as “Other General Questions”.
+- In the Details section:
+  - Please indicate if you’re looking to deploy virtual machines or purchase Reserved Virtual Machine Instances
+  - Please specify the region, SKU, and the number of virtual machine instances that you're planning to deploy or purchase
 
 
 ![Problem](./media/SKU-series-unavailable/ProblemSubMgmt.png)
